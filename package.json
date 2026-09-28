@@ -1,0 +1,30 @@
+{
+  "name": "redis-code-tutorial",
+  "version": "1.0.0",
+  "description": "Redis and its applications implementation with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gangipallitharun/redis-code-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gangipallitharun/redis-code-tutorial/issues"
+  },
+  "homepage": "https://github.com/Gangipallitharun/redis-code-tutorial#readme",
+  "dependencies": {
+    "bullmq": "^6.3.9",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "ioredis": "^6.0.0",
+    "nodemon": "^3.1.14",
+    "redis": "^6.2.1"
+  }
+}
